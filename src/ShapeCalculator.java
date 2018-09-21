@@ -1,37 +1,33 @@
 public class ShapeCalculator {
 
-    double a;
-    double b;
-    double c;
 
+    double squareArea(Square square){
 
-    double squareArea(double a){
-
-        double sa= a*a;
+        double sa= square.a*square.a;
 
         return sa;
 
     }
 
-    double circleArea(double a, double b){
+    double circleArea(Circle circle){
 
-        double ca=2*a*b;
+        double ca=2*(circle.a*circle.pi);
 
         return ca;
 
     }
 
-    double trianglePerimeter(double a, double b, double c){
+    double trianglePerimeter(Triangle triangle){
 
-        double tp= a+b+c;
+        double tp= triangle.a + triangle.b + triangle.c;
 
         return tp;
 
     }
 
-    double rectPerimeter(double a, double b){
+    double rectPerimeter(Rectangle rectangle){
 
-        double rp= 2*a+2*b;
+        double rp= 2*rectangle.a+2*rectangle.b;
 
         return rp;
 

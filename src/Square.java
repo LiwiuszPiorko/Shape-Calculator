@@ -6,5 +6,10 @@ public class Square {
         this.a = a;
     }
 
+    double calculateArea() {
 
+        double calculateArea = a*a;
+
+        return calculateArea;
+}
 }

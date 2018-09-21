@@ -7,4 +7,11 @@ public class Rectangle {
         this.a = a;
         this.b = b;
     }
+
+    double calculateArea() {
+
+        double calculateArea = 2*a+2*b;
+
+        return calculateArea;
+    }
 }

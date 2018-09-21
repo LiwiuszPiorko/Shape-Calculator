@@ -33,6 +33,22 @@ public class ShapeCalculatorTest {
         System.out.println(circleArea);
 
 
+        Rectangle rect = new Rectangle(5.5, 1.5);
+        double rectArea = rect.calculateArea();
+        System.out.print(rectArea);
+
+        Circle circ = new Circle(3.14, 1.5);
+        double circArea = circ.calculateArea();
+        System.out.print(circArea);
+
+        Square sque=new Square(5.5);
+        double squeArea=sque.calculateArea();
+        System.out.println(squeArea);
+
+        Triangle tri=new Triangle(5.5,4.4,6.6);
+        double triArea=tri.calculateArea();
+        System.out.println(triArea);
+
 
 
 
